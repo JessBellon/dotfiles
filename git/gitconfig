@@ -1,0 +1,30 @@
+[user]
+	name = Jessica Bellon
+        email = jessica.bellon@rewardStyle.com
+
+# Tell git to always use ssh.
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+# Ensure a "git push" can only push to a remote branch with the same name.
+[push]
+    default = simple
+
+# Ensure a "git pull" will always rebase local commits instead of merging
+# remote into local. This helps maintaining a cleaner, linear commit history.
+[branch]
+    autosetuprebase = always
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+	logline = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[rebase]
+        autoSquash = true
+
+# set "nvim" as tool for merging
+[merge]
+  tool = nvim
+# automatically launch merge tool without displaying a promp
+#
+[mergetool]
+  prompt = false
