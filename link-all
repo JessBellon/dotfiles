@@ -1,0 +1,29 @@
+#!/usr/bin/env fish
+
+# Symlink alacritty
+ln -svf $PWD/alacritty $HOME/.config
+
+# Symlink bin
+ln -svf $PWD/bin $HOME
+
+# Symlink fish config
+ln -svf $PWD/fish $HOME/.config
+
+# Symlink gitconfig
+ln -svf $PWD/git/gitconfig $HOME/.gitconfig
+
+# Symlink gitignore
+ln -svf $PWD/git/gitignore $HOME/.gitignore
+
+# Symlink karabiner
+ln -svf $PWD/karabiner $HOME/.config
+
+# Symlink nvim
+ln -svf $PWD/nvim $HOME/.config
+
+# Symlink tmux
+ln -svf $PWD/tmux/tmux.conf $HOME/.tmux.conf
+
+
+
+
