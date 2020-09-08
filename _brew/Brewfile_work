@@ -1,0 +1,143 @@
+tap "caarlos0/tap"
+tap "cuelang/tap"
+tap "danielgtaylor/restish"
+tap "getantibody/tap"
+tap "github/gh"
+tap "golangci/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "jesseduffield/lazydocker"
+tap "kdabir/tap"
+tap "koekeishiya/formulae"
+tap "kyleconroy/sqlc"
+tap "mas-cli/tap"
+tap "msoap/tools"
+tap "nektos/tap"
+tap "osx-cross/avr"
+tap "xo/xo"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Powerful, enterprise-ready, open source web server with automatic HTTPS
+brew "caddy"
+# Core application library for C
+brew "glib"
+# Validate CloudFormation templates against the CloudFormation spec
+brew "cfn-lint"
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
+# Color-highlighted diff(1) output
+brew "colordiff"
+# Lightweight, framework-agnostic database migration tool
+brew "dbmate"
+# Lightweight DNS forwarder and DHCP server
+brew "dnsmasq", restart_service: true
+# Modern replacement for 'ls'
+brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Test automation tool that supports executable documentation
+brew "gauge"
+# GitHub command-line tool
+brew "gh"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Database migrations CLI tool
+brew "golang-migrate"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# CLI wrapper for basic network utilities on macOS - ip command
+brew "iproute2mac"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Hash utilities
+brew "md5sha1sum"
+# Like sed, awk, cut, join & sort for name-indexed data such as CSV
+brew "miller"
+# Open source relational database management system
+brew "mysql"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Libraries for security-enabled client and server applications
+brew "nss"
+# Shell command parallelization utility
+brew "parallel"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
+# Object-relational database system
+brew "postgresql"
+# Python version management
+brew "pyenv"
+# Command-line YAML and XML processor that wraps jq
+brew "python-yq"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Send macOS User Notifications from the command-line
+brew "terminal-notifier"
+# Programatically correct mistyped console commands
+brew "thefuck"
+# Terminal multiplexer
+brew "tmux"
+# CLI tool that moves files or folder to the trash
+brew "trash"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# UNIX shell (command interpreter)
+brew "zsh"
+# CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.
+brew "cuelang/tap/cue"
+# Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in.
+brew "danielgtaylor/restish/restish"
+# Fast linters runner for Go.
+brew "golangci/tap/golangci-lint"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker"
+# Generate type safe Go from SQL
+brew "kyleconroy/sqlc/sqlc"
+# Mac App Store command-line interface
+brew "mas-cli/tap/mas"
+# Tool for viewing test coverage for Go source files
+# 
+# To view the test coverage in the terminal, just run go-carpet.
+brew "msoap/tools/go-carpet"
+# Run GitHub Actions locally
+brew "nektos/tap/act"
+# universal command-line SQL client interface
+brew "xo/xo/usql"
+cask "firefox"
+cask "fork"
+cask "gimp"
+cask "insomnia"
+cask "syncthing"
+mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
+mas "Sequel Ace", id: 1518036000
+mas "Slack", id: 803453959
