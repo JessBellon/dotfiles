@@ -1,7 +1,4 @@
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'skywind3000/asynctasks.vim'
-Plug 'skywind3000/asyncrun.vim'
-Plug 'natebosch/vim-lsc'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ciaranm/securemodelines'              " Secure modelines against vulnerabilities
 Plug 'editorconfig/editorconfig-vim'        " editorconfig
@@ -13,21 +10,15 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
+
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tmux-plugins/vim-tmux-focus-events'
-" Plug 'junegunn/gv.vim'
-" " Plug 'junegunn/vim-easy-align'
-Plug 'itchyny/lightline.vim'
-" " Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
-" Plug 'avakhov/vim-yaml'
+
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-" " Plug 'moorereason/vim-markdownfmt'
+
+Plug 'itchyny/lightline.vim'
 " Colorschemes
 Plug 'drewtempelmeyer/palenight.vim'
-" Plug 'NLKNguyen/papercolor-theme'
-" Plug 'tmux-plugins/vim-tmux', {'for': 'tmux'}
-" Plug 'mhinz/vim-signify'
-" Plug 'mileszs/ack.vim'
 call plug#end()
 
 
@@ -51,7 +42,6 @@ set hidden
 set expandtab
 set termguicolors
 
-let g:netrw_dirhistmax = 0
  
 set completeopt=menu,menuone,noinsert,noselect
 
@@ -66,7 +56,7 @@ noremap N Nzz
 command! W w
 command! Wq wq
 command! WQ wq
-let g:asyncrun_open = 6
+
 " Unhighlight by pushing leader twice.
 nnoremap <leader><leader> :nohlsearch<CR>
 " Opens a vertical split with the vim rc file
