@@ -3,10 +3,13 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "kdabir/tap"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Cross-platform make
 brew "cmake"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Lightweight, framework-agnostic database migration tool
 brew "dbmate"
 # Pack, ship and run any application as a lightweight container
@@ -23,6 +26,10 @@ brew "docker-machine"
 brew "exa"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Distributed revision control system
+brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Postgres C API library
@@ -45,6 +52,8 @@ brew "trash"
 brew "tree"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
+# checks presence of various command line tools and their versions on the path
+brew "kdabir/tap/has"
 cask "alacritty"
 cask "alfred"
 cask "docker"
