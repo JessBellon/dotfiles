@@ -1,1 +1,17 @@
 rafaelrinaldi/pure
+jethrokuan/fzf
+oh-my-fish/plugin-foreign-env
+oh-my-fish/plugin-aws
+oh-my-fish/plugin-brew
+oh-my-fish/plugin-thefuck
+laughedelic/brew-completions
+demartini/plugin-docker-compose
+veggiemonk/almostontop-fish
+lilyball/fzf-git.fish
+oh-my-fish/plugin-bang-bang
+
+# https://github.com/OakNinja/MakeMeFish
+# https://github.com/joehillen/ev-fish
+# https://github.com/patrickf3139/github.fish
+# https://github.com/edc/bass
+# https://github.com/jorgebucaran/bax.fish
